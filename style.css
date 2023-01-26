@@ -13,7 +13,6 @@ a {
 }
 
 .logo {
-    text-decoration: none;
     color: black;
     font-family: Raleway;
     font-size: 26px;
@@ -25,15 +24,6 @@ a {
 
 span {
     color: #2196F3;
-}
-
-header>ul>li>a {
-    text-decoration: none;
-    list-style: none;
-}
-
-header>ul {
-    list-style: none;
 }
 
 .nav {
@@ -93,10 +83,6 @@ header>ul {
     text-align: left;
 }
 
-.section>ul {
-    list-style: none;
-}
-
 .lorem {
     font-family: Roboto;
     font-size: 14px;
@@ -140,7 +126,6 @@ header>ul {
 }
 
 .adress {
-    text-decoration: none;
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
@@ -151,7 +136,6 @@ header>ul {
 }
 
 .email2, .tel {
-    text-decoration: none;
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
@@ -189,7 +173,31 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 305px;
+    width: 330px;
+}
+
+.mail-li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 160px;
+    fill: #757575;
+}
+
+.tel-li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 140px;
+    fill: #757575;
+}
+
+.mail-li:hover {
+    fill: #2196F3;
+}
+
+.tel-li:hover {
+    fill: #2196F3;
 }
 
 /* =====================Clients============= */
