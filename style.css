@@ -200,6 +200,10 @@ header {
     fill: #2196F3;
 }
 
+/* ====================Hero=================== */
+
+
+
 /* =====================Clients============= */
 
 .clients-title {
@@ -209,9 +213,16 @@ header {
     line-height: 42px;
     letter-spacing: 0.03em;
     color: #212121;
+
+    display: flex;
+    justify-content: center;
 }
 
 .clients-list {
+    width: 1170px;
+    height: 91px;
+    margin-top: 60px;
+
     display: flex;
 }
 
@@ -233,10 +244,12 @@ header {
     fill: #AFB1B8;
 }
 
-.clients-icon,
 .clients-item:hover {
-    fill: #2196F3;
     border-color: #2196F3;
+}
+
+.clients-item:hover .clients-icon {
+    fill: #2196F3;
 }
 
 .container {
